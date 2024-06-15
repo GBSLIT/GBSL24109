@@ -54,7 +54,7 @@
             width: 100%;
             max-width: 350px;
             height: auto;
-            margin-top: 70px;
+            margin-top: 100px;
         }
         table {
             width: 100%;
@@ -127,7 +127,7 @@
 <body>
     <div class="header">
         <div class="header-content">
-	    <img src="images/spoga.png" alt="spoga">
+	    
             <img src="images/LOGO PNG.png" alt="GLOBAL BASE SOURCING LIMITED">
             
             <!-- Add more images as needed -->
@@ -143,19 +143,19 @@
                 </tr>
                 <tr>
                     <th>Product Code</th>
-                    <td>GBSL24109</td>
+                    <td>GBSL24107</td>
                 </tr>
                 <tr>
                     <th>Product Material</th>
-                    <td>Pe, Iron, Solar Light and Tube</td>
+                    <td>Pe, Iron and Solar Bulb</td>
                 </tr>
                 <tr>
                     <th>Product Size</th>
-                    <td>Width 30cm x Length 30cm x Height 33cm</td>
+                    <td>Width 16cm x Length 16cm x Height 25cm</td>
                 </tr>
                 <tr>
-                    <th>Product CBM</th>
-                    <td>0.03</td>
+                    <th>MOQ</th>
+                    <td>11652</td>
                 </tr>
                 <tr>
                     <th>Product Weight</th>
@@ -163,43 +163,49 @@
                 </tr>
                 <tr>
                     <th>Unit</th>
-                    <td>pcs</td>
+                    <td>Pcs</td>
                 </tr>
                 <tr>
                     <th>Carton Size</th>
-                    <td>Width 62cm x Length 32cm x Height 36cm</td>
+                    <td>Width 50cm x Length 34cm x Height 46cm</td>
                 </tr>
                 <tr>
                     <th>Carton Quantity</th>
-                    <td>2</td>
+                    <td>12</td>
                 </tr>
                 <tr>
                     <th>Carton CBM</th>
                     <td>0.07</td>
                 </tr>
                 <tr>
-                    <th>20 Ft Container Carton Quantity</th>
-                    <td>400 Carton</td>
+                    <th>20 Ft Container Quantity</th>
+                    <td>4800</td>
                 </tr>
                 <tr>
-                    <th>40 Ft Container Carton Quantity</th>
-                    <td>857 Carton</td>
+                    <th>40 Ft Container Quantity</th>
+                    <td>10284</td>
                 </tr>
                 <tr>
-                    <th>40 HQ Container Carton Quantity</th>
-                    <td>971 Carton</td>
+                    <th>40 HQ Container Quantity</th>
+                    <td>11652</td>
                 </tr>
                 <tr>
                     <th>Price</th>
-                    <td><button class="link-button" id="myBtn">Show Price</button></td>
+                    <td>USD 5.98</td>
                 </tr>
                 <tr>
                     <th>FOB Port</th>
                     <td>Yantian, China</td>
                 </tr>
                 <tr>
-                    <th>More Details - Packaging PPT</th>
-                    <td><button class="link-button" onclick="window.location.href='Link';"> </button></td>
+                    <th>Other Details</th>
+                    <td>Bulk Packed, Hangtag 1. 2V 80Ma Polycrystalline Silicon Solar Panels ,                  
+2.  One Pc X 1.2V Aaa 300 Mah Ni-Mh Battery                          
+3.  Bulb With 2 Filament Leds，0.06W
+4. It Can Pass Ip 44 
+5. No Timer Fuction
+6. Working Time:4-8 Hours
+</td>
                 </tr>
             </table>
         </div>
@@ -265,7 +271,7 @@
                 document.getElementById("price").textContent = "Invalid margin - Please enter a value between 0 and 99.";
                 document.getElementById("margin").value = ''; // Clear the input
             } else {
-                var price = ((10.05 * 100)/(100 - margin));
+                var price = ((4.92 * 100)/(100 - margin));
                 document.getElementById("price").textContent = "Price: $" + price.toFixed(2) + "/pcs";
                 document.getElementById("margin").value = ''; // Clear the input after calculating
             }
